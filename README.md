@@ -1,8 +1,12 @@
 # jax-demo
-Learning jax, a few reference implementations here for later as well as some notes.
+
+A small test demo for using jax, nnx, and optax to train a simple relu-activated MLP on MNIST for 10 epochs and visualize outputs.
+Largely adapted from the [demo](https://cloud.google.com/blog/products/ai-machine-learning/guide-to-jax-for-pytorch-developers) for the Titanic dataset from Google.
+
 
 ## Setup
-With python @3.10:
+Using conda:
+
 ```
 $ conda create -n jax-demo python=3.9
 $ conda activate jax-demo

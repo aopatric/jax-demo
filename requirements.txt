@@ -1,0 +1,13 @@
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+
+flax
+optax
+ipykernel
+jupyter
+ipywidgets
+jaxlib
+torch
+torchvision
+matplotlib
+tqdm

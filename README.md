@@ -11,7 +11,6 @@ Using conda:
 $ conda create -n jax-demo python=3.9
 $ conda activate jax-demo
 (jax-demo) $ pip install -r requirements.txt
-(jax-demo) $ pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 ```
 
 Then, install the corresponding Jax library:
